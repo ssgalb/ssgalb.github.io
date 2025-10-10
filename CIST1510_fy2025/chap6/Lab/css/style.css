@@ -1,0 +1,263 @@
+/*
+Author: Sheldon Smith
+Date: Current Date
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1 {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #e5e9fc;
+}
+
+/* Style rule for images */
+img{
+    border-radius: 200px;
+    display:list-item;
+}
+
+/* Style rules for mobile viewport */
+
+
+/* Hide tab-desk class */
+
+.tab-desk {
+    display: none;
+}
+
+/* Style rules for header content */
+
+header {
+    text-align: center;
+    font-size: 1.5em;    color: black;
+}
+
+header h1 {
+    font-style: italic;
+}
+
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+/* Style rule for navigation area */
+nav {
+    background-color: grey;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 8em;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: #e5e9fc;
+    overflow: auto;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+.action {
+    font-size: 1.25em;
+    color: blue;
+    font-weight: bold;
+}
+
+#piano, #guitar, #violin {        
+        margin: 0 2%;
+}
+
+#info {
+      clear: left;
+      background-color: #c0caf7;
+      padding: 1% 2%;
+      margin: 10%;
+}
+
+#round class {
+    border-radius: 8px;
+}
+
+#contact {
+     text-align: center;
+}
+
+.tel-link {
+    background-color: #373684;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+#contact .email-link {
+     color: #4645a8;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+.map {
+     border: 5px solid whitesmoke;
+     width: 95%;
+     height: 50%;
+}
+
+/* Style rules for footer content */
+footer {
+      text-align: center;
+      font-size: 0.65em;
+      clear: left;
+
+}
+
+footer a {
+     color: whitesmoke;
+     text-decoration: wavy;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen (min-width: 550px), print {
+
+/* Tablet Viewport: Show tab-desk class, hide mobile class */
+
+.tab-desk {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+/*Tablet Viewport: Style rule for header content */
+span.tab-desk {
+    display: inline; 
+}  
+@media only screen and (min-width: 481px) and (max-width: 760px)
+    nav ul li {
+        display: inline-block;
+        font-size: 0.9em; 
+    }
+}
+
+/* Tablet Viewport: Style rules for nav area */
+
+nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.5em;
+    border-right: 1px solid #e5e9fc;
+}
+
+nav li: :last-child {
+    border-right: none; 
+}
+
+nav li a {
+    padding: 0.25em 0.5em;
+}
+
+/* Tablet Viewport: Style rule for map */
+
+.map: {width: 500px; 
+       height: 450px;
+}
+
+/* Media Query for Desktop Viewport.*/
+
+@media screen and (min-width: 769px), print {    
+}
+
+/* Desktop Viewport: Style rule for header */
+
+@media screen and (min-width: 769px) {
+    header {
+        padding: 2%;
+    }
+}
+
+/* Desktop Viewport: Style rules for nav area. */
+
+nav li a {
+    padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1.5em; padding-right: 1.5em;
+    color: #373684;   background-color: #e5e9fc;
+}
+
+/* Desktop Viewport: Style rules for main content. */
+
+#info ul {
+    margin-left: 5%;
+}
+
+main h3 {
+    font-size: 1.5em;
+}
+
+#piano,
+#guitar,
+#violin {
+    width: 29%;
+    float: left;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* Media Query for Print */
+
+@media print {
+    body {
+        font-family: serif;
+        color: black;
+        background-color: white;
+    }
+    header, footer, nav, aside {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+}
