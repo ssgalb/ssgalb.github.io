@@ -6,18 +6,11 @@ body {
   line-height: 1.6;
 }
 
-/* Banner
-.banner {
-  width: 100%;
-  height: auto;
-}
- */
-
 header{background-image: url(../images/techBanner.jpg);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;}
 
 /* Navigation */
 nav {
-  background-color: teal;
+  background-color: #050D41;
 }
 .nav-list {
   display: flex;
@@ -30,7 +23,7 @@ nav {
   margin: 0 20px;
 }
 .nav-list a {
-  color: #ffffff;
+  color: #939FF5;
   text-decoration: none;
   font-weight: bold;
 }
@@ -48,7 +41,7 @@ nav {
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #3A568D;
+  background-color: #050D41;
   min-width: 150px;
   z-index: 1000;
   top: 100%;
@@ -63,12 +56,12 @@ nav {
 .dropdown-menu a {
   display: block;
   padding: 10px;
-  color: brown;
+  color: #939FF5;
   text-decoration: none;
 }
 
 .dropdown-menu a:hover {
-  background-color: black;
+  color: #c3c9f5;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -76,7 +69,12 @@ nav {
 }
 
 
-
+.header_text{
+    color: #c3c9f5;
+    text-align: center;
+    margin-top: 10vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 /* Section styling */
@@ -91,7 +89,7 @@ nav {
   gap: 20px;
 }
 
-#about-section{height: 60vh; background-color: #494848; color: #ffffff;}
+#about-section{height: 60vh; background-color: #1127C4; color: #939FF5;}
 
 
 .contact-section{height: 60vh;}
