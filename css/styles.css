@@ -13,7 +13,7 @@ body {
 }
  */
 
-header{background-image: url(..CIST1510_fy2025/images/econ_banner\ .jpeg);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;}
+header{background-image: url(../images/techBanner.jpg);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;}
 
 /* Navigation */
 nav {
@@ -30,7 +30,7 @@ nav {
   margin: 0 20px;
 }
 .nav-list a {
-  color: #3A568D;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -91,7 +91,7 @@ nav {
   gap: 20px;
 }
 
-#about-section{height: 60vh; background-color: #494848; color: #ccc;}
+#about-section{height: 60vh; background-color: #494848; color: #ffffff;}
 
 
 .contact-section{height: 60vh;}
@@ -120,7 +120,7 @@ nav {
 /* Footer */
 footer {
   background-color: #222;
-  color: blue;
+  color: #ccc;
   padding: 40px 20px;
 }
 .footer-container {
@@ -138,13 +138,13 @@ footer {
   margin-bottom: 10px;
 }
 .footer-col a {
-  color: #ccc;
+  color: #ccc; /* Ensures sufficient contrast on #222 background */
   text-decoration: none;
   display: block;
   margin-bottom: 5px;
 }
 .footer-col a:hover {
-  color: #fff;
+  color: #fff; /* Even higher contrast for hover state */
 }
 
 .footer-col a i {
