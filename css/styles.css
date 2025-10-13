@@ -13,7 +13,7 @@ body {
 }
  */
 
-header{background-image: url(../images/econbanner\ .jpg);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;}
+header{background-image: url(..CIST1510_fy2025/images/econ_banner\ .jpeg);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;}
 
 /* Navigation */
 nav {
@@ -30,7 +30,7 @@ nav {
   margin: 0 20px;
 }
 .nav-list a {
-  color: gray;
+  color: #3A568D;
   text-decoration: none;
   font-weight: bold;
 }
@@ -68,7 +68,7 @@ nav {
 }
 
 .dropdown-menu a:hover {
-  background-color: #555;
+  background-color: black;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -120,7 +120,7 @@ nav {
 /* Footer */
 footer {
   background-color: #222;
-  color: #fff;
+  color: blue;
   padding: 40px 20px;
 }
 .footer-container {
