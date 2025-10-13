@@ -13,7 +13,7 @@ body, header, nav, main, footer, img, h1 {
 
 /* Style rule for images */
 img{
-    border-radius: ;
+    border-radius: 8px;
     display:list-item;
 }
 
@@ -41,7 +41,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    font-size: 8em;
+    font-size: 1.8em;
 }
 
 nav li a {
@@ -106,5 +106,7 @@ footer {
 
 footer a {
      color: whitesmoke;
-     text-decoration: wavy;
+     text-decoration: underline;
 }
+
+/* end of sytle.css */
