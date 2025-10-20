@@ -1,77 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Personal Website</title>
-  <link rel="icon"href="/images/favicon.png" type="image/png">
-  <link rel="stylesheet" href="../../css/styles.css">
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=i, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <!-- Header with banner image -->
-  <header id="top">
-  <!-- Navigation -->
-  <nav>
-    <ul class="nav-list">
-      <li><a href="../../">Home</a></li>
-      <li><a href="./notes/">Notes</a></li>
-      <li><a href="./classwork/">Classwork</a></li>
+    <section id="contact">
+        <h2>Contact Us</h2>
 
-        <li class="dropdown">
-          <a href="#">Labs</a>
-          <ul class="dropdown-menu">
-            <li><a href="./rentals.html">Lab1</a></li>
-            <li><a href="./labs/lab2.html">Lab2</a></li>
-            <li><a href="./labs/lab3.html">Lab3</a></li>
-          </ul>
-        </li>
+        <form action="#" method="POST">
+          <div class="form-grid">
+                <div class="form-group">
+                     <label for="Name">Name:</label>
+                     <input type="text" id="name" name="name" required>
+          </div>
 
-    </ul>
-  </nav>
-  <div class="header_text">
-    <h1>CHAP8 WEB DEV 1510</h1>
-    <p>"Still Going !!!"</p>
-  </div>
-  </header>
+          <div class="form-group">
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" required>
+          </div>
 
-<main>
-</main>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footer-container">
-      <div class="footer-col">
-        <h4>Menu</h4>
-        <a href="#about-section">About</a><br>
-        <a href="#contact-section">Contact</a>
-      </div>
-      <div class="footer-col">
-        <h4>Projects</h4>
-        <a href="./pages/project.html">My Work</a>
-      </div>
-      <div class="footer-col">
-        <h4>Resources</h4>
-        <a href="https://www.w3,org/" target="_blank">Box Model</a><br>
-        <a href="https://www.w3.org/" target="_blank">Responsive Web Design</a>
-      </div>
-
-
-
-        <div class="footer-col social_icon">
-          <h4>Follow Me</h4>
-          <span>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          </span>
+          <div class="form-group full-width">
+               <label for="message">Message</label>
+               <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
         </div>
+  <Button> type="submit">Send Message</Button>
 
-        
-    </div>
-  </footer>
+        </form>
+    </section>
 
+    </section>
+    
 </body>
 </html>
-
