@@ -230,7 +230,7 @@ footer a {
 }
 
 /* Media Query for Tablet Viewport */
-@media screen (min-width: 550px), print {
+@media screen (min-width: 550px), print {Hello}
 
 /* Tablet Viewport: Show tab-desk class, hide mobile class */
 
@@ -288,6 +288,13 @@ nav li a {
 
 .map: {width: 500px; 
        height: 450px;
+}
+
+/* Tablet Viewport: Style rule for form element */
+
+form {
+  width: 70%;
+  margin: 0 auto;
 }
 
 /* Media Query for Desktop Viewport.*/
