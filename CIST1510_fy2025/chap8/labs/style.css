@@ -202,6 +202,20 @@ tr:nth-child(odd) {
     background-color: #b7b7e1;
 }
 
+/* Style rules for form elements */
+fieldset, input { margin-bottom: 2%;
+}
+
+fieldset legend { font-weight: bold; font-size: 1.25em;
+}
+
+label { display: block; padding-top: 3%;
+}
+
+#submit { margin-top: 0%; margin-bottom: 0%; margin-left: auto; margin-right: auto;
+display: block; padding: 3%; background-color: #b7b7e1; font-size: 1em;
+}
+
 /* Style rules for footer content */
 footer {
       text-align: center;
