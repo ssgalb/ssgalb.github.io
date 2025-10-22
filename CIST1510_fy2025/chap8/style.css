@@ -339,6 +339,12 @@ body {
     background-color: #fff;
     color: #000;
 }
+
+/* Desktop Viewport: Style rules for table */
+
+table { 
+    width: 70%;
+}
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 550px), print {
 }
