@@ -20,7 +20,7 @@ img {
 /* Style rules for header content */
 header {
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     color: #373684;
 }
 
@@ -99,7 +99,7 @@ main p {
 /* Style rules for footer content */
 footer {
     text-align: center;
-    font-size: 0.65em;
+    font-size: 2em;
     clear: left;   
 }
 
