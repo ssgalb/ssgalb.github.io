@@ -52,4 +52,14 @@ nav li a {
     text-decoration: none; 
 }
 
-/* Style 
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: #e5e9fc;
+    overflow: auto;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
