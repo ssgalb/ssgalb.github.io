@@ -122,6 +122,18 @@ nav li a {
     display: block;
 }
 
+/* Style rules for hamburger menu */
+
+.mobile-nav a {
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
 .mobile-nav a.menu-icon {
     display: block;
     position: absolute;
