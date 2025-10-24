@@ -63,3 +63,40 @@ main {
 main p {
     font-size: 1.25em;
 }
+
+.action {
+    font-size: 1.75em;
+    color:#373684;
+    font-weight: bold;
+}
+
+#piano, #guitar, #violin {
+     width: 29%;
+     float: left;
+     margin: 0 2%;
+}
+
+#info {
+    clear: left;
+    background-color: #c0caf7;
+    padding: 1% 2%;
+}
+
+#contact a {
+    color: #4645a8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map {
+    border: 5px solid #373684;
+}
+
+
+
+
+
+/* Style rules for footer content */
+footer {
+    
+}
