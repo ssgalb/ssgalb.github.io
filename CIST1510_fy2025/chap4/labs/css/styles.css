@@ -19,7 +19,7 @@ img {
 
 /* Style rules for header content */
 header {
-    text-align: centrer;
+    text-align: center;
     font-size: 3em;
     color: #373684;
 }
@@ -83,6 +83,12 @@ main p {
 }
 
 #contact a {
+    color: #4645a8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#lesson a {
     color: #4645a8;
     text-decoration: none;
     font-weight: bold;
