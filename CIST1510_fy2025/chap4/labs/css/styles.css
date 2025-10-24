@@ -15,21 +15,12 @@ body, header, nav, main, footer, img, h1 {
 img {
       max-width: 100%;
       display: block;
-
-/* Style rules for mobile viewport */
-
-/*Hide tab-desk class */
-
-.tab-desk {
-    display: none;
-}
-
 }
 
 /* Style rules for header content */
 header {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 4em;
     color: #373684;
 }
 
