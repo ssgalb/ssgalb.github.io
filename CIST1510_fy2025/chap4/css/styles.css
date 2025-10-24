@@ -98,5 +98,15 @@ main p {
 
 /* Style rules for footer content */
 footer {
-    
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;   
 }
+
+footer a {
+    color: #4645a8;
+    text-decoration: none;
+}
+
+
+
