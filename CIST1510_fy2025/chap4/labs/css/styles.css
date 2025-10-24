@@ -20,7 +20,7 @@ img {
 /* Style rules for header content */
 header {
     text-align: center;
-    font-size: 3em;
+    font-size: 5em;
     color: #373684;
 }
 
@@ -30,7 +30,7 @@ header h1 {
 
 /* Style rules for navigation area */
 nav {
-    background-color: #373684;
+    background-color: white;
 }
 
 nav ul {
@@ -83,12 +83,6 @@ main p {
 }
 
 #contact a {
-    color: #4645a8;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#lesson a {
     color: #4645a8;
     text-decoration: none;
     font-weight: bold;
