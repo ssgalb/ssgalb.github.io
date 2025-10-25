@@ -61,6 +61,20 @@ nav li a {
     text-decoration: none; 
 }
 
+/* Desktop Viewport: Style rules for main content lab6 task12 */
+
+#info {
+    margin-left: 5%;
+    font-size: 1.5em;
+}
+
+#piano {
+    width: 29%;
+    float: left 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 /* Style rules for main content */
 main {
     padding: 2%;
@@ -136,10 +150,44 @@ footer a {
     text-decoration: none;
 }
 
-/* Media Query for Table Viewport */
+/* Media Query for Table Viewport. lab6 task 1 */
 @media screen and (min-width: 550px), print {
-/*Tablet Viewport: Style rules for nav area. */ 
+/*Tablet Viewport: Style rules for nav area.  */ 
 }
+
+/* Tablet Viewport: Style rule for map. */
+
+.map {
+    width: 500px; height: 450px;
+}
+
+/* Media Query for Desktop Viewport. */
+
+@media screen (min-width: 769px), print {
+}
+
+/* Media Query for Print. Lab 6 task 13*/
+
+@media print {
+    background-color: #fff;
+    color: #000;
+
+}
+
+/* Desktop Viewport: Style rule for header. lab6 task 10*/
+
+header {
+    padding: 2%;
+}
+
+/* Desktop Viewport: Style rules for nav area. lab6 task 11 */
+
+.nav li {
+    padding-top:  0.5em; padding-bottom: 0.5em;
+    padding-left: 1.5em; padding-right: 1.5em;
+    color: #373684; background-color: #e5e9fc;
+}
+    
 
 .nav li {
     border-top: none;
@@ -159,4 +207,6 @@ footer a {
 span.tab-desk {
     display: inline;
 }
+
+
 
