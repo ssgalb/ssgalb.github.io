@@ -91,6 +91,10 @@ main p {
     padding: 1% 2%;
 }
 
+.round {
+    border-radius: 8px;
+}
+
 #contact a {
     color: #4645a8;
     text-decoration: none;
