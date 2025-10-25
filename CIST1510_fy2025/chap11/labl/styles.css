@@ -38,7 +38,8 @@ header h1 {
 }
 
 header {
-    float: left;
+    float: inherit;
+}
 }
 
 /* Style rules for navigation area */
