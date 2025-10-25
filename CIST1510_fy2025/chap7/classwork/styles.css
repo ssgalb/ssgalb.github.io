@@ -1,5 +1,8 @@
-/*Sheldon Smith 
-Oct 2025 */
+/* 
+Sheldon Smith
+Date: 10/24/25
+File: stlyes.css 
+*/
 
 /* CSS Reset */
 body, header, nav, main, footer, img, h1, section, aside, figure, figcaption {
@@ -259,3 +262,6 @@ header {
 span.tab-desk {
     display: inline;
 }
+
+
+
