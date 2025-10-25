@@ -95,17 +95,32 @@ main p {
     border-radius: 8px;
 }
 
-#contact a {
+#contact .email-link {
     color: #4645a8;
     text-decoration: none;
     font-weight: bold;
 }
 
-.map {
-    border: 5px solid #373684;
+.tel-link {
+    background-color: #373684;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
 }
 
+.text-link a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
 
+.map {
+    border: 5px solid #373684;
+    width: 95%; height: 50%;
+}
 
 
 
