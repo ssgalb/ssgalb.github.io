@@ -66,6 +66,67 @@ nav li a {
     text-decoration: none; 
 }
 
+/* Navigation */
+nav {
+  background-color: #050D41;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+.nav-list li {
+  margin: 0 20px;
+}
+.nav-list a {
+  color: #939FF5;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+
+/* Navigation Dropdown Styling */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #050D41;
+  min-width: 150px;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  color: #939FF5;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  color: #c3c9f5;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
 /* Style rules for main content */
 main {
     padding: 2%;
