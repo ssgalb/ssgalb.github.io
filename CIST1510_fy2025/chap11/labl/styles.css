@@ -37,6 +37,10 @@ header h1 {
     font-size: italic;
 }
 
+header {
+    float: left;
+}
+
 /* Style rules for navigation area */
 nav {
     background-color: white;
