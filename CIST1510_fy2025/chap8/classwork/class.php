@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = "ssmith@student.gwinnetttech.edu";
     $subject = "New Form Submission from Website";
     $body = "Name: $name\nEmail: $email\nMessage:\n$message";
-    $headers = "Form: $email";
+    $headers = "From: $email";
 
     if (mail($to, $subject, $body, $headers)) {
         echo "Email sent successfully!";
