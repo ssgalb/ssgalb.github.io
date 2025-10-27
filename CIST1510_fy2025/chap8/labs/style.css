@@ -230,63 +230,65 @@ footer a {
 }
 
 /* Media Query for Tablet Viewport */
-@media screen (min-width: 550px), print {Hello}
-
-/* Tablet Viewport: Show tab-desk class, hide mobile class */
-
-aside grid column span 1 / 2 {
-    display: grid;
-    grid-template-columns: 4;
-    gap: 20px;
-}
-
-figcaption
-{
-    font-size: 1em;
-}
-
-aside span 1 / 4 {
-}
-
-.tab-desk {
+/* Tablet Viewport and Print Styles */
+@media screen and (min-width: 550px), print {
+  /* Tablet Viewport: Show tab-desk class, hide mobile class */
+  .tab-desk {
     display: block;
-}
+  }
 
-.mobile {
+  .mobile {
     display: none;
+  }
+
+  /* Tablet Viewport: Style rule for header content */
+  span.tab-desk {
+    display: inline;
+  }
+
+  /* Tablet Viewport: Style rule for aside grid layout */
+  aside {
+    display: grid;
+    grid-column: span 1 / span 2;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  /* Tablet Viewport: Style rule for figcaption */
+  figcaption {
+    font-size: 1em;
+  }
+
+  /* Note: Removed invalid selector 'aside span 1 / 4' */
 }
 
-/*Tablet Viewport: Style rule for header content */
-span.tab-desk {
-    display: inline; 
-}  
-@media only screen and (min-width: 481px) and (max-width: 760px)
-    nav ul li {
-        display: inline-block;
-        font-size: 0.9em; 
-    }
+/* Additional Media Query for mid-range tablets */
+@media only screen and (min-width: 481px) and (max-width: 760px) {
+  nav ul li {
+    display: inline-block;
+    font-size: 0.9em;
+  }
 }
 
 /* Tablet Viewport: Style rules for nav area */
-
 nav li {
-    border-top: none;
-    display: inline-block;
-    font-size: 1.5em;
-    border-right: 1px solid #e5e9fc;
+  border-top: none;
+  display: inline-block;
+  font-size: 1.5em;
+  border-right: 1px solid #e5e9fc;
 }
 
-nav li: :last-child {
-    border-right: none; 
+nav li:last-child {
+  border-right: none;
 }
 
 nav li a {
-    padding: 0.25em 0.5em;
+  padding: 0.25em 0.5em;
 }
 
 /* Tablet Viewport: Style rule for map */
 
-.map: {width: 500px; 
+.map {width: 500px; 
        height: 450px;
 }
 
@@ -370,7 +372,7 @@ table {
 /* Desktop Viewport: Style rules for form elements */
 
 form-grid {
-    display: grid; grid-template-columns: auto auto; gap 20px;
+    display: grid; grid-template-columns: auto auto; gap: 20px;
 }
 
 .btn {
@@ -397,4 +399,6 @@ li {
     font-size: 1.5em;
     border-right: 1px solid #e5e9fc;
 }
-li {top and bottom padding: 0.25; left and right padding: 0.5em;}
+li {
+  padding: 0.25em 0.5em;
+}
