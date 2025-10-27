@@ -18,12 +18,42 @@ footer{font-size: large;
 }
 
 h1 {font-style: oblique;
-
 }
 
-nav ul li {
-    font-size: 1.5em;
+/* Style rule for navigation area */
+/* Navigation container */
+nav {
+  background-color: #050D41; /* dark blue background */
 }
+
+/* Navigation list */
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Navigation items */
+.nav-list li {
+  margin: 0 20px;
+}
+
+/* Navigation links */
+.nav-list a {
+  color: white; /* white text */
+  text-decoration: none;
+  font-weight: bold;
+  background: none; /* removes any white box background */
+  padding: 0.25em 0.5em;
+}
+
+/* Hover effect */
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
 
 /* Style the form container */
 form {
