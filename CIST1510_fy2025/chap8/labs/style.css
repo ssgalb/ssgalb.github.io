@@ -84,7 +84,7 @@ header h1 {
 
 /* Style rule for navigation area */
 nav {
-    background-color: grey;
+    background-color:#373684;
 }
 
 nav ul {
@@ -95,7 +95,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    font-size: 8em;
+    font-size: 2em;
 }
 
 nav li a {
