@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue; color-scheme: inherit;
+    background-color: #7282f2; color-scheme: inherit;
 }
 
 body {
@@ -35,7 +35,7 @@ form {
 /* Style the input field */
 #search-input {
     padding: 8px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #142de5;
     border-radius: 4px;
     font-size: 16px;
 }
@@ -52,5 +52,5 @@ button [type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #5164ef;
 }
