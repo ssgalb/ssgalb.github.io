@@ -97,9 +97,8 @@ nav {
   margin: 0 20px;
 }
 .nav-list a {
-  color: #939FF5;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: medium;
 }
 .nav-list a:hover {
   text-decoration: underline;
