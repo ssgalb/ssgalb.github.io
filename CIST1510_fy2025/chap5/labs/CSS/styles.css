@@ -54,7 +54,7 @@ header h1 {
 
 /* Navigation links */
 .nav-list a {
-  color: white; /* white text */
+  color: black; /* white text */
   text-decoration: none;
   font-weight: bold;
   background: none; /* removes any white box background */
@@ -158,7 +158,7 @@ footer a {
     display: block;
 }
 .mobile {
-    display; none;
+    display: none;
 }
 /* Tablet Viewport: Style rule for header content */
 span.tab-desk {
