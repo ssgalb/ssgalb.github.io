@@ -35,8 +35,8 @@ aside {
 }
 
 aside {
-    grid-column initial-value: 1 / span 2;
-}
+    grid-column: 1 / span 2;
+}   
 
 aside {
     grid-column: 1 / span 4;
@@ -76,8 +76,6 @@ figcaption { font-size: 1em;}
     display: none;
 }
 
-}
-
 /* Style rules for header content */
 header {
     text-align: center;
@@ -90,7 +88,6 @@ header h1 {
 }
 
 /* Style rules for navigation area */
-/* Style rule for navigation area */
 /* Navigation container */
 nav {
   background-color: #050D41; /* dark blue background */
@@ -122,7 +119,6 @@ nav {
 /* Hover effect */
 .nav-list a:hover {
   text-decoration: underline;
-}
 }
 
 /* Desktop Viewport: Style rules for main content lab6 task12 */
