@@ -81,8 +81,6 @@ header h1 {
   font-style: italic;
 }
 
-
-/* Style rule for navigation area */
 /* Style rule for navigation area */
 /* Navigation container */
 nav {
@@ -223,8 +221,30 @@ fieldset legend { font-weight: bold; font-size: 1.25em;
 label { display: block; padding-top: 3%;
 }
 
-#submit { margin-top: 0%; margin-bottom: 0%; margin-left: auto; margin-right: auto;
-display: block; padding: 3%; background-color: #b7b7e1; font-size: 1em;
+#submit {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Tablet Viewport: Show tab-desk class, hide mobile class */
+@media screen and (min-width: 550px), print {
+    /* Hello */
+    .tab-desk {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+}
+
+aside.grid-column-span-1-2 {
+    display: grid;
+    padding: 3%;
+    background-color: #b7b7e1;
+    font-size: 1em;
 }
 
 /* Style rules for footer content */
@@ -240,13 +260,7 @@ footer a {
      text-decoration: wavy;
 }
 
-/* Media Query for Tablet Viewport */
-@media screen (min-width: 550px), print {Hello}
-
-/* Tablet Viewport: Show tab-desk class, hide mobile class */
-
-aside grid column span 1 / 2 {
-    display: grid;
+/* 
     grid-template-columns: 4;
     gap: 20px;
 }
