@@ -60,8 +60,10 @@ figcaption {
 
 /* Mobile Styles */
 
-@media screen and (max-width: 768px) .tab-desk, #menu-links {
-     display: none;
+@media screen and (max-width: 768px) {
+  .tab-desk,
+  #menu-links {
+    display: none;
   }
 }
 
