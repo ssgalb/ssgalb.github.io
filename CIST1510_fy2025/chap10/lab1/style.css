@@ -459,5 +459,6 @@ li {
     display: inline-block;
     font-size: 1.5em;
     border-right: 1px solid #e5e9fc;
+li {
+  padding: 0.25em 0.5em;
 }
-li {top and bottom padding: 0.25; left and right padding: 0.5em;}
