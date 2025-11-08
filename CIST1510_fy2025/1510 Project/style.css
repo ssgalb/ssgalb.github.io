@@ -111,3 +111,15 @@ nav li a:hover {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+/* Tablet Viewport: Animation */
+@-webkit-keyframes text-animation {
+  0% { font-size: 1em; }
+  50% { font-size: 2em; }
+  100% { font-size: 1.35em; }
+}
+
+figcaption {
+  -webkit-animation-name: text-animation;
+  animation-name: text-animation; 
+}
