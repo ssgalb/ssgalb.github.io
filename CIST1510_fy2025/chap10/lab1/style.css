@@ -273,14 +273,17 @@ footer a {
 }
 
 /* Media Query for Tablet Viewport */
-@media screen (min-width: 550px), print {Hello}
+@media screen and (min-width: 550px), print {
+  /* Add valid CSS rules here */
+}
 
 /* Tablet Viewport: Show tab-desk class, hide mobile class */
 
-aside grid column span 1 / 2 {
-    display: grid;
-    grid-template-columns: 4;
-    gap: 20px;
+aside {
+  display: grid;
+  /* Defines a grid with 4 equal-width columns */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 figcaption
@@ -303,11 +306,12 @@ aside span 1 / 4 {
 span.tab-desk {
     display: inline; 
 }  
-@media only screen and (min-width: 481px) and (max-width: 760px)
-    nav ul li {
-        display: inline-block;
-        font-size: 0.9em; 
-    }
+
+@media only screen and (min-width: 481px) and (max-width: 760px) {
+  nav ul li {
+    display: inline-block;
+    font-size: 0.9em;
+  }
 }
 
 /* Tablet Viewport: Style rules for nav area */
