@@ -432,8 +432,11 @@ table {
 
 /* Desktop Viewport: Style rules for form elements */
 
-form-grid {
-    display: grid; grid-template-columns: auto auto; gap 20px;
+css
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
 }
 
 .btn {
