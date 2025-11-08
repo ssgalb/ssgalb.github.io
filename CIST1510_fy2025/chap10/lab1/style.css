@@ -291,7 +291,15 @@ figcaption
     font-size: 1em;
 }
 
-aside span 1 / 4 {
+.grid-container {
+  display: grid;
+  /* Example: A grid with 4 columns */
+  grid-template-columns: repeat(4, 1fr);
+}
+
+aside {
+  /* Correct syntax to place the aside from column line 1 to line 4 */
+  grid-column: 1 / 4;
 }
 
 .tab-desk {
@@ -323,18 +331,26 @@ nav li {
     border-right: 1px solid #e5e9fc;
 }
 
-nav li: :last-child {
-    border-right: none; 
-}
-
+/* Styles the anchor tags inside the list items */
 nav li a {
     padding: 0.25em 0.5em;
 }
 
 /* Tablet Viewport: Style rule for map */
+.map {
+    width: 500px;
+    height: 450px;
+}
 
-.map: {width: 500px; 
-       height: 450px;
+/* Styles the anchor tags inside the list items */
+nav li a {
+    padding: 0.25em 0.5em;
+}
+
+/* Tablet Viewport: Style rule for map */
+.map {
+    width: 500px;
+    height: 450px;
 }
 
 /* Tablet Viewport: Style rule for form element */
