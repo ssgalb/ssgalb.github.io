@@ -58,17 +58,7 @@ figcaption {
     display: none;
 }
 
-/* Mobile Styles */
-
-@media screen and (max-width: 768px) {
-  .tab-desk,
-  #menu-links {
-    display: none;
-  }
-}
-
 /* Style rules for header content */
-
 header {
     text-align: center;
     font-size: 1.5em;    color: black;
@@ -123,31 +113,6 @@ nav {
 /* Hover effect */
 .nav-list a:hover {
     text-decoration: underline;
-}
-
-/* Style rules for hamburger menu */
-
-.mobile-nav a {
-    color: #fff;
-    font-family: 'Francois One', sans-serif;
-    text-align: center;
-    font-size: 2em;
-    text-decoration: none;
-    padding: 3%;
-    display: block;
-}
-
-.mobile-nav a.menu-icon {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.menu-icon div {
-    height: 50px;
-    width: 50px;
-    background-color: #373684;
 }
 
 /* Style rules for main content */
@@ -273,133 +238,144 @@ footer a {
      text-decoration: wavy;
 }
 
-/* Media Query for Tablet Viewport */
-@media screen and (min-width: 550px), print {
-  /* Add valid CSS rules here */
-}
-
-/* Tablet Viewport: Show tab-desk class, hide mobile class */
-
-aside {
-  display: grid;
-  /* Defines a grid with 4 equal-width columns */
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
-
-figcaption
-{
-    font-size: 1em;
-}
-
-.grid-container {
-  display: grid;
-  /* Example: A grid with 4 columns */
-  grid-template-columns: repeat(4, 1fr);
-}
-
-aside {
-  /* Correct syntax to place the aside from column line 1 to line 4 */
-  grid-column: 1 / 4;
-}
-
-.tab-desk {
-    display: block;
-}
-
-.mobile {
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .tab-desk {
     display: none;
+  }
+
+  #menu-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #050d41;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050d41;
+    padding: 1em;
+    position: relative;
+  }
+
+  .mobile-nav a {
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+  }
+
+  .mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .menu-icon div {
+    height: 50px;
+    width: 50px;
+    background-color: #373684;
+  }
+
+  .mobile-nav.active #menu-links {
+    display: flex;
+  }
 }
 
-/*Tablet Viewport: Style rule for header content */
-span.tab-desk {
-    display: inline; 
-}  
-
-@media only screen and (min-width: 481px) and (max-width: 760px) {
+/* Tablet Styles */
+@media screen and (min-width: 481px) and (max-width: 768px) {
   nav ul li {
     display: inline-block;
     font-size: 0.9em;
   }
-}
 
-/* Tablet Viewport: Style rules for nav area */
-
-nav li {
+  nav li {
     border-top: none;
     display: inline-block;
     font-size: 1.5em;
     border-right: 1px solid #e5e9fc;
-}
+  }
 
-/* Styles the anchor tags inside the list items */
-nav li a {
+  nav li a {
     padding: 0.25em 0.5em;
-}
+  }
 
-/* Tablet Viewport: Style rule for map */
-.map {
+  .map {
     width: 500px;
     height: 450px;
+  }
+
+  form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .tab-desk {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  span.tab-desk {
+    display: inline;
+  }
+
+  aside {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-column: 1 / 4;
+  }
+
+  figcaption {
+    font-size: 1em;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
-/* Styles the anchor tags inside the list items */
-nav li a {
-    padding: 0.25em 0.5em;
-}
-
-/* Tablet Viewport: Style rule for map */
-.map {
-    width: 500px;
-    height: 450px;
-}
-
-/* Tablet Viewport: Style rule for form element */
-
-form {
-  width: 70%;
-  margin: 0 auto;
-}
-
-/* Media Query for Desktop Viewport.*/
-
-@media screen and (min-width: 769px), print {    
-}
-
-/* Desktop Viewport: Style rule for header */
-
+/* Desktop Styles */
 @media screen and (min-width: 769px) {
-    header {
-        padding: 2%;
-    }
-}
+  header {
+    padding: 2%;
+  }
 
-/* Desktop Viewport: Style rules for nav area. */
+  nav li a {
+    padding: 0.5em 1.5em;
+    color: #373684;
+    background-color: #e5e9fc;
+  }
 
-nav li a {
-    padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1.5em; padding-right: 1.5em;
-    color: #373684;   background-color: #e5e9fc;
-}
-
-/* Desktop Viewport: Style rules for main content. */
-
-#info ul {
+  #info ul {
     margin-left: 5%;
-}
+  }
 
-main h3 {
+  main h3 {
     font-size: 1.5em;
-}
+  }
 
-#piano,
-#guitar,
-#violin {
+  #piano,
+  #guitar,
+  #violin {
     width: 29%;
     float: left;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0 2%;
+  }
 }
 
 /* Media Query for Print */
