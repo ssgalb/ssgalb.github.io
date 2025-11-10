@@ -113,15 +113,7 @@ nav li a {
     text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
-}
 
-.mobile-nav a {
-    color: #fff;
-    text-align: center;
-    font-size: 2em;
-    text-decoration: none;
-    padding: 3%;
-    display: block;
 }
 
 /* Style rules for hamburger menu */
@@ -445,6 +437,10 @@ css
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 550px), print {
+}
+
+.mobile-nav {
+    display: none;
 }
 
 /* Tablet Viewport: Show tab-desk class, hide mobile class */

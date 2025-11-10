@@ -5,7 +5,11 @@
 /* Hamburger menu function */
 
 function hamburger() {
-    const menu = document.getElementById("menu-links");
-    // Add or remove a CSS class that controls visibility
+    var menu = document.getElementById("menu-links");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
     menu.classList.toggle("is-active");
 }
