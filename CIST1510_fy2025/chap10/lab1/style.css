@@ -419,31 +419,3 @@ css
 .btn {
     grid-column: 1 / span 2;
 }
-
-/* Media Query for Tablet Viewport */
-@media screen and (min-width: 550px), print {
-}
-
-.mobile-nav {
-    display: none;
-}
-
-/* Tablet Viewport: Show tab-desk class, hide mobile class */
-.tab-desk {
-    display: block;
-}
-/* Tablet Viewport: Style rule for header content */
-span.tab-desk {
-    display: inline; 
-}
-
-/* Tablet Viewport: Style rules for nav area */
-li {
-    border-top: none;
-    display: inline-block;
-    font-size: 1.5em;
-    border-right: 1px solid #e5e9fc;
-li {
-  padding: 0.25em 0.5em;
- }
-}
