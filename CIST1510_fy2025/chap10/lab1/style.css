@@ -152,7 +152,9 @@ main p {
      text-align: center;
 }
 
-#rental h2
+#rental {
+     text-align: center;
+}h2
 
 .tel-link {
     background-color: #373684;
