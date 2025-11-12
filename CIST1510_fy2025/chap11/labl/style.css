@@ -440,3 +440,31 @@ css
 .btn {
     grid-column: 1 / span 2;
 }
+
+/* navbar */
+
+.navbar {
+  background-color: #f0f0f0; 
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+}
+
+.navbar a {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.navbar a:hover {
+  background-color: #ccc;
+}
