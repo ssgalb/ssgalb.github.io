@@ -19,3 +19,11 @@
 .text-dark-purple {
     color:#373684;
 }
+
+/* Style rules for mobile viewport */
+
+@media only screen and (max-width: 768px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
