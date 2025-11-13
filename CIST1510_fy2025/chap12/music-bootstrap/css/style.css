@@ -23,7 +23,7 @@
 /* Style rules for mobile viewport */
 
 @media only screen and (max-width: 768px) {
-    .hidden-mobile {
+    .hide-on-mobile {
         display: none;
     }
 }
