@@ -20,10 +20,15 @@
     color:#373684;
 }
 
-/* Style rules for mobile viewport */
-
-@media only screen and (max-width: 768px) {
-    .hide-on-mobile {
-        display: none;
-    }
+/* Hide desktop and tablet content on mobile viewports */
+@media (max-width: 576px) {
+  .col-sm-4 {
+    display: none;
+  }
+/* Optional: hide other desktop-specific elements */
+  .jumbotron,
+  .navbar-expand-sm {
+    display: none;
+  }
 }
+
