@@ -13,6 +13,36 @@ header{background-image: url(../images/techBanner.jpg);  background-repeat: no-r
 
 }
 
+/* Style rule for table */
+
+table {
+    border: 1px solid #373684;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+
+Caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+}
+
+th, td {
+    border: 1px solid #373684;
+    padding: 2%;
+}
+
+th {
+   background-color: #373684;
+   color: #fff;
+   font-size: 1.15em;
+}
+
+tr:nth-child(odd) {
+    background-color: #b7b7e1;
+}
+
 h1 {font-style: oblique;
 }
 
@@ -49,6 +79,7 @@ nav {
 .nav-list a:hover {
   text-decoration: underline;
 }
+
 
 
 /* Style the form container */
