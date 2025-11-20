@@ -9,7 +9,7 @@ body {
     line-height: 1.6;
 }
 
-header{font-size: large;
+header{background-image: url(../images/techBanner.jpg);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;}
 
 }
 
