@@ -13,10 +13,6 @@ header{font-size: large;
 
 }
 
-footer{font-size: large;
-
-}
-
 h1 {font-style: oblique;
 }
 
@@ -122,4 +118,55 @@ nav li a:hover {
 figcaption {
   -webkit-animation-name: text-animation;
   animation-name: text-animation; 
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 40px 20px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 150px;
+}
+.footer-col h4 {
+  margin-bottom: 10px;
+}
+.footer-col a {
+  color: #ccc; /* Ensures sufficient contrast on #222 background */
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+.footer-col a:hover {
+  color: #fff; /* Even higher contrast for hover state */
+}
+
+.footer-col a i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.footer-col a i:hover {
+  color: #ccc;
+}
+
+
+
+.social_icon{
+  text-align: center; padding: 20px;
+}
+
+.social_icon span a{
+  display: inline-block;
 }
