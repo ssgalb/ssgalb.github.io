@@ -9,9 +9,21 @@ body {
     line-height: 1.6;
 }
 
-header{background-image: url(../images/techBanner.jpg);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;}
-
+/* Style rules for header content */
+header {
+    text-align: center;
+    font-size: 4em;
+    color: #373684;
 }
+
+header h1 {
+    font-size: italic;
+}
+
+
+header{background-image: url(../images/techBanner.jpg);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;
+}
+
 
 /* Style rule for table */
 
