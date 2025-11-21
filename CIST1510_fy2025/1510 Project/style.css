@@ -59,7 +59,8 @@ tr:nth-child(odd) {
     background-color: #b7b7e1;
 }
 
-h1 {font-style: oblique;
+h1 {font-size: 80px;
+  font-weight: bold;
 }
 
 /* Style rule for navigation area */
