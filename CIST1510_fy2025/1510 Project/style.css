@@ -1,5 +1,5 @@
 body {
-    background-color: #117450; color-scheme: inherit;
+    background-color: #373684; color-scheme: inherit;
 }
 
 body {
@@ -16,6 +16,11 @@ img {
       justify-content: center;
 }
 
+img src {
+      justify-content: center;
+
+}
+
 /* Style rules for header content */
 header {
     text-align: center;
@@ -27,8 +32,8 @@ header h1 {
     font-size: italic;
 }
 
-header{background-image: url(../images/techBanner.jpg);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;
-}
+
+
 
 
 /* Style rule for table */
