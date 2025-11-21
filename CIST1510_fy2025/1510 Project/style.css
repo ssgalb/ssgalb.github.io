@@ -70,32 +70,42 @@ nav {
   background-color: #050D41; /* dark blue background */
 }
 
+/* Navigation container */
+.nav-list {
+  background-color: #373684; /* dark background */
+  padding: 0.5em 1em;
+}
+
 /* Navigation list */
 .nav-list ul {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap; /* allows wrapping on small screens */
   list-style: none;
-  padding: 10px;
   margin: 0;
+  padding: 0;
 }
 
 /* Navigation items */
 .nav-list li {
-  margin: 0 20px;
+  margin: 0 10px; /* reduced spacing */
 }
 
 /* Navigation links */
 .nav-list a {
-  color: white; /* white text */
+  color: white;
   text-decoration: none;
-  font-weight: bold;
-  background: none; /* removes any white box background */
-  padding: 0.25em 0.5em;
+  font-weight: 600;
+  font-size: 0.95em;
+  padding: 0.4em 0.6em;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
 /* Hover effect */
 .nav-list a:hover {
-  text-decoration: underline;
+  background-color: #4a4abf;
+  text-decoration: none;
 }
 
 
@@ -216,4 +226,22 @@ footer {
 
 .social_icon span a{
   display: inline-block;
+}
+
+/* Responsive tweak */
+@media (max-width: 600px) {
+  .nav-list ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list li {
+    margin: 0.5em 0;
+  }
+
+  .nav-list a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
