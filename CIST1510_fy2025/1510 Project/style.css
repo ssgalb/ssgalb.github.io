@@ -13,6 +13,7 @@ body {
 img {
       max-width: 100%;
       display: block;
+      justify-content: center;
 }
 
 /* Style rules for header content */
@@ -68,19 +69,21 @@ h1 {font-size: 80px;
 /* Navigation container */
 nav {
   background-color: #050D41; /* dark blue background */
+  padding: 0; /* remove extra padding */
+  margin: 0;
 }
 
-/* Navigation container */
+/* Navigation wrapper */
 .nav-list {
-  background-color: #373684; /* dark background */
-  padding: 0.5em 1em;
+  background-color: #373684;
+  padding: 0.25em 0.5em; /* reduced padding */
 }
 
 /* Navigation list */
 .nav-list ul {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* allows wrapping on small screens */
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -88,18 +91,18 @@ nav {
 
 /* Navigation items */
 .nav-list li {
-  margin: 0 10px; /* reduced spacing */
+  margin: 0 6px; /* tighter spacing */
 }
 
 /* Navigation links */
 .nav-list a {
   color: white;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.95em;
-  padding: 0.4em 0.6em;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  font-weight: 500; /* slightly lighter */
+  font-size: 0.85em; /* smaller text */
+  padding: 0.3em 0.4em; /* reduced padding */
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
 }
 
 /* Hover effect */
