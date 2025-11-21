@@ -9,6 +9,11 @@ body {
     line-height: 1.6;
 }
 
+/* Style rule for image */
+img {
+      max-width: 100%;
+      display: block;
+
 /* Style rules for header content */
 header {
     text-align: center;
