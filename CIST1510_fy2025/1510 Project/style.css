@@ -32,31 +32,31 @@ header{background-image: url(../images/techBanner.jpg);  background-repeat: no-r
 
 /* Style rule for table */
 
-table {
+.value table {
     border: 1px solid #373684;
     border-collapse: collapse;
     margin: 0 auto;
     width: 100%;
 }
 
-Caption {
+.value caption {
     font-size: 1.5em;
     font-weight: bold;
     padding: 1%;
 }
 
-th, td {
+.value th, .value td {
     border: 1px solid #373684;
     padding: 2%;
 }
 
-th {
+.value th {
    background-color: #373684;
    color: #fff;
    font-size: 1.15em;
 }
 
-tr:nth-child(odd) {
+.value tr:nth-child(odd) {
     background-color: #b7b7e1;
 }
 
