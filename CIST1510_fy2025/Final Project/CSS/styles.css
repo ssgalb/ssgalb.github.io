@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
 }
 
-header{background-image: url(../Images/dollar-5239575_1280.png);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;}
+header{background-image: url(../Images/dollar-5239575_1280.png);  background-repeat: no-repeat; background-size: 90vw; height: 40vh;}
 
 /* Navigation */
 nav {
@@ -156,7 +156,7 @@ footer {
   color: #ccc;
 }
 
-.social_icon{
+.footer-social_icon col{
   text-align: center; padding: 20px;
 }
 
