@@ -216,3 +216,27 @@ display: block; padding: 3%; background-color: #b7b7e1; font-size: 1em;
 border: none; border-radius: 5px; cursor: pointer;
 }
 
+.union {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  border: 5px solid;
+  padding: 2rem;
+
+  /* The important extrinsic width */
+  width: 320px;
+}
+
+.awesome[data-sizing="intrinsic"] {
+  width: min-content;
+}
+
+/*
+
+
+Presentational styles 
+*/
+.union {
+  --flow-space: 2rem;
+}
